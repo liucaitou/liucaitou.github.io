@@ -13,7 +13,7 @@ collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     files:
-      - "index"
+      - index
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}/{{month}}/{{day}}/{{filename}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: "html"
